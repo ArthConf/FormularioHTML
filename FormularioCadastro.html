@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro usuário</title>
+    <meta name = "author" content = "Arthur Confessor">
+    <meta name = "description" content = "Página de cadastro de um usuário">
+</head>
+<body>
+    <h1>Cadastro</h3>
+    <hr>
+    <h3>Preencha as informações abaixo: </h1>
+        <div>
+            <form action = "" method="post">
+                <label for = "nome">Nome:</label>
+                <input type = "text" id = "nome"/> <br/>
+                <label for = "e-mail">E-mail:</label>
+                <input type = "text" id = "e-mail"/><br/>
+                <label for = "senha">Senha: </label>
+                <input type = "password" id = "senha"/> <br/> <br/>
+                <legend>Qual é o seu genero? </legend> <br/>
+                <div>
+                    <input type = "radio" id = "masculino" value = "masculino" name = "genero" />
+                    <label for = masculino>Masculino</label> <br/>
+                </div>
+                <div>
+                    <input type = "radio" id = "feminino" value = "feminino" name = "genero"/>
+                    <label for = "feminino">Feminino</label>
+                </div>
+                <br/> <br/>
+                <div>
+                    <label for = "dtnasc">Data de nascimento</label>
+                    <input type = "date" id = "dtnasc"/>
+                </div>
+                <br/> <br/>
+                <div> 
+                    <label for = "documento"> Documento Pessoal</label>
+                    <input type = "file"  accept=".pdf,.jpeg,.docx" />
+                </div>
+                <br/> <br/>
+                <div>
+                    <label for = "submeter"></label>
+                    <input type = "submit" id = "submeter" />
+                </div>
+                
+                
+            </form>
+        </div>
+</body>
+</html>
